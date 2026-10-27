@@ -3,10 +3,10 @@ import { useState } from 'react'
 import './App.css'
 import Listinha from './Pages/Lista'
 import Head from './Components/Heade'
-
+import BarraLateral from './Components/BE'
 function App() {
   const [page, setPage] = useState('Inicio')
-
+  const [barraAberta, setBarraAberta] = useState(false)
   return (
     <div>
       <Head mudarPagina={setPage} />
@@ -16,7 +16,13 @@ function App() {
       )}
 
       {page === 'Listinha' && <Listinha />}
+
+      <button onClick={() => setBarraAberta(!barraAberta)}>
+  {barraAberta ? 'Fechar' : 'Abrir menu'}
+</button>
+{barraAberta && <BarraLateral />}
     </div>
+
   )
 }
 

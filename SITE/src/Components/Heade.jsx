@@ -1,4 +1,4 @@
-import './head.css'
+import './Head.css'
 function Head({ mudarPagina }) {
   return (
     <header>

@@ -2,10 +2,57 @@ header{
 background-color: black;
 border-radius: 20px;
 }
-h1.Site{
-    position: fixed;
-color:aqua;
+li.Janelas{  
+color: white;
 }
-h2{
-color: aliceblue;
+
+.Janelas {
+  color: aqua;
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 10px;
+}
+
+.Janelas li {
+  background-color: #333;
+  color: aqua;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Janelas li:hover {
+  background-color: aqua;
+  color: black;
+}
+
+
+body{
+background-color: darkgrey;
+}
+h1{
+color: aqua;
+}
+
+
+.BarraLateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+  color: aqua;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.BarraLateral label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
 }
