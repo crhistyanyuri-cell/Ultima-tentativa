@@ -8,9 +8,9 @@ function Head({ mudarPagina }) {
         <ul className="Janelas">
           <li onClick={() => mudarPagina('Inicio')}>Início</li>
           <li onClick={() => mudarPagina('Listinha')}>Lista</li>
-          <li onClick={() => mudarPagina('Janela2')}>Janela2</li>
-          <li onClick={() => mudarPagina('Janela3')}>Janela3</li>
-          <li onClick={() => mudarPagina('Janela4')}>Janela4</li>
+          <li onClick={() => mudarPagina('Card 1')}>Card 1</li>
+          <li onClick={() => mudarPagina('Noticia')}>Noticia</li>
+          <li onClick={() => mudarPagina('Agradecer')}>Agradecer</li>
         </ul>
       </nav>
     </header>

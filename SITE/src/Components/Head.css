@@ -56,3 +56,28 @@ color: aqua;
   justify-content: space-between;
   margin-top: 20px;
 }
+
+.card1 {
+  width: 250px;
+  padding: 20px;
+  margin: 30px;
+background-color: cornflowerblue;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card1 button {
+  padding: 8px 15px;
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card1 button:hover {
+  background-color: darkturquoise;
+}
+h2.card1{
+color: aqua;
+}
